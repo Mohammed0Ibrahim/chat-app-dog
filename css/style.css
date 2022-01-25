@@ -110,7 +110,7 @@ div.convert-header::after {
   
 }
 .convert-header div>img:last-of-type {
-  background-image : url("avatar.jpg");
+  background-image : url("../image/avatar.jpg");
   float: left;
   width: 30px;
   height: 30px;
@@ -163,10 +163,6 @@ h2 {
     position: absolute;
     justify-content: center;
  
-}
-.convert-header div::after {
-  content:"";
-  background-image: url();
 }
 .convert-body {
   height: 85%;
@@ -257,10 +253,10 @@ input::placeholder {
   border-radius: 12px;
 }
 .img-one{
-  background-image: url(dog-image-1.jpg);
+  background-image: url("../image/dog-image-1.jpg");
 }
-.img-two{ background-image: url(dog-image-2.jpg);}
-.img-three{ background-image: url(dog-image-3.jpg);}
+.img-two{ background-image: url("../image/dog-image-2.jpg");}
+.img-three{ background-image: url("../image/dog-image-3.jpg");}
 div.left {
   background-image: linear-gradient( to right,var(--light-magenta),var(--light-violet));
  position: relative;
